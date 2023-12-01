@@ -18,7 +18,7 @@ function checkOddOrEven(number) {
     }
 }
 
-var Number = 8;
-checkOddOrEven(Number);
+let num = 8;
+checkOddOrEven(num);
 checkOddOrEven(7);
 checkOddOrEven(0);
