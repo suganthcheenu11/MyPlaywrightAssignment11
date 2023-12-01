@@ -30,12 +30,13 @@ function calculateGrade(scores) {
       case scores >= 0 && scores < 50:
          return "F";
       default:
-         return "No Grade found";
+         return "No Grade found. Please ensure the score is between 1 and 100";
+
    }
 
 }
 
-let score;
+let score = 50;
 
 console.log(calculateGrade(score));
 console.log(calculateGrade(70));
