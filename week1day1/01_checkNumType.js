@@ -28,5 +28,5 @@ function checkNumberType(number) {
    }
 }
 
-var Number = 4;
-console.log(checkNumberType(Number));
+var num = 4;
+console.log(checkNumberType(num));
